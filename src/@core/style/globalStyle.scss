@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* variables */
+:root {
+  --bgColor: #f1f5f9;
+  --mainBtnColor: #336cfb;
+  --footerBg: rgb(223, 216, 216);
+  --headerBg: rgb(182, 191, 238);
+  --loginBg: #e7f1fb;
+  --boxShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --radiusCard: 6px;
+  --mainPaddingX: 1rem;
+  --mainPaddingY: 1rem;
+}
+
+body {
+  width: 100%;
+  max-width: 1980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* usable classes */
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.gap-1 {
+  gap: 8px;
+}
+.gap-2 {
+  gap: 15px;
+}
+.gap-3 {
+  gap: 22px;
+}
+.gap-4 {
+  gap: 26px;
+}
+.gap-x-1 {
+  gap: 0 8px;
+}
+.gap-x-2 {
+  gap: 0 15px;
+}
+.gap-x-3 {
+  gap: 0 22px;
+}
+.gap-x-4 {
+  gap: 0 26px;
+}
+.gap-y-1 {
+  gap: 8px 0;
+}
+.gap-y-2 {
+  gap: 15px 0;
+}
+.gap-y-3 {
+  gap: 22px 0;
+}
+.gap-y-4 {
+  gap: 26px 0;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.m-x-auto {
+  margin: 0 auto;
+}
+
+.m-1 {
+  margin: 8px;
+}
+.m-2 {
+  margin: 15px;
+}
+.m-3 {
+  margin: 22px;
+}
+.m-4 {
+  margin: 26px;
+}
+.m-x-1 {
+  margin: 0 8px;
+}
+.m-x-2 {
+  margin: 0 15px;
+}
+.m-x-3 {
+  margin: 0 22px;
+}
+.m-x-4 {
+  margin: 0 26px;
+}
+.m-y-1 {
+  margin: 8px 0;
+}
+.m-y-2 {
+  margin: 15px 0;
+}
+.m-y-3 {
+  margin: 22px 0;
+}
+.m-y-4 {
+  margin: 26px 0;
+}
+
+.m-t-1 {
+  margin-top: 8px;
+}
+.m-t-2 {
+  margin-top: 15px;
+}
+.m-t-3 {
+  margin-top: 22px;
+}
+.m-t-4 {
+  margin-top: 26px;
+}
+.m-b-1 {
+  margin-top: 8px;
+}
+.m-b-2 {
+  margin-top: 15px;
+}
+.m-b-3 {
+  margin-top: 22px;
+}
+.m-b-4 {
+  margin-top: 26px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}

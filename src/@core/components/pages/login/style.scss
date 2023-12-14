@@ -1,0 +1,11 @@
+.login-page {
+  height: 100dvh;
+  background: var(--loginBg);
+  #login,
+  #password {
+    height: 40px;
+  }
+  .send-btn {
+    height: 40px;
+  }
+}
