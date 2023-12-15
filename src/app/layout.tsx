@@ -1,8 +1,7 @@
 import '@/@core/style/globalStyle.scss'
+import { ReactNode } from 'react'
 // style for toast
 import 'react-toastify/dist/ReactToastify.min.css'
-
-import { ReactNode } from 'react'
 
 type Props = {
   children: ReactNode
